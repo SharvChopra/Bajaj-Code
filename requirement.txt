@@ -1,0 +1,22 @@
+# requirements.txt
+
+# Streamlit for the web interface
+streamlit
+
+# Langchain for orchestration
+langchain
+langchain-google-genai
+
+# Document loaders
+pypdf
+unstructured
+python-docx
+
+# Vector Database
+chromadb
+
+# For managing environment variables (API Key)
+python-dotenv
+
+# For fixing async event loop issues in Streamlit
+nest-asyncio
